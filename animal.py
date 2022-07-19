@@ -4,7 +4,10 @@ def default():
 	print('Hello')
 
 def dog():
-        print('Woof')
+    print('Woof')
+
+def bird():
+    print("Chirp")
 
 def cat():
 	print('Meow')
@@ -14,6 +17,8 @@ def main():
 		cat()
 	elif sys.argv[1] == 'dog':
 		dog()
+	elif sys.argv[1] == 'bird':
+		bird()
 	else:
 		default()
 
